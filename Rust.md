@@ -31,7 +31,7 @@ https://learning-rust.github.io/docs/c2.borrowing.html
 
 Deux type de "pointeurs" : 
 
-*Partagé (&T), la donnée peut être partagée entre plusieurs fonction ou variables mais ne peut pas être modifiée.
-*Mutable (&mut T), la donnée peut être utilisée uniquement par un seul utilisateur mais ne peut être modifiée que par un seul utilisateur (fonction ou méthode) à la fois (dans le même scope)
+- Partagé (&T), la donnée peut être partagée entre plusieurs fonction ou variables mais ne peut pas être modifiée.
+- Mutable (&mut T), la donnée peut être utilisée uniquement par un seul utilisateur mais ne peut être modifiée que par un seul utilisateur (fonction ou méthode) à la fois (dans le même scope)
 
 On parle alors de durée de vie du pret.
