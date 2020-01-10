@@ -1,6 +1,14 @@
 # Note Rust
 
-#### Gestion de la mémoire : 
+Rust est un langage puissant une fois appréhendé les quelques difficultés "Pret / Propriété / Durée de Vie" vous prendrez beaucoup de plaisir à developper des applications rapides et sécurisés.
+
+### Primitives :
+- bool
+
+let x = true;
+let y: bool = false;
+
+### Gestion de la mémoire : 
 
 2 formes : 
 
