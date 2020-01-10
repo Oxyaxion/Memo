@@ -20,14 +20,14 @@ Ce qui fait qu'en cas d'appel de la valeur dans le main par exemple cela claquer
 Lors du passage d'une variable à une fonction.
 La donnée peut être : 
 
-- Copiée (Copy type, complétement la donnée dans la stack), le plus souvent il s'agit de primitive (Integer, ...) 
-- Déplacée (Move type, Copy alors TOUTE la donnée qui est présente dans le heap, pour tout ce qui n'est pas primitif, chaine de caractère, slice ... - gourmand en mémoire -)
+*Copiée (Copy type, complétement la donnée dans la stack), le plus souvent il s'agit de primitive (Integer, ...) 
+*Déplacée (Move type, Copy alors TOUTE la donnée qui est présente dans le heap, pour tout ce qui n'est pas primitif, chaine de caractère, slice ... - gourmand en mémoire -)
 
 Pour éviter cela Rust met en place une mécanique un peu comme en C ou l'on accede à la donnée par un système de pret le Borrowing
 
 ### (Borrowing) - 
 
-Deux type :
+Deux type de "pointeurs" : 
 
-Partagé
-Mutable
+*Partagé (&T), la donnée peut être partagée entre plusieurs fonction ou variables mais ne peut pas être modifiée.
+*Mutable (&mut T), la 
